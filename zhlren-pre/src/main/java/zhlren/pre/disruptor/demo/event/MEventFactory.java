@@ -5,9 +5,10 @@ import com.lmax.disruptor.EventFactory;
 /**
  * Created by bjrenzhili on 17/3/7.
  */
-public class EventFactorySample implements EventFactory<EventSample>{
+public class MEventFactory implements EventFactory<MEvent>{
 
-    public EventSample newInstance() {
-        return null;
+    public MEvent newInstance() {
+        return new MEvent();
     }
+
 }

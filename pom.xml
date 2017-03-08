@@ -16,7 +16,7 @@
 
         <junit.version>4.10</junit.version>
         <commons-lang.version>2.6</commons-lang.version>
-        <disruptor.version>3.2.1</disruptor.version>
+        <disruptor.version>3.3.6</disruptor.version>
 
     </properties>
 
