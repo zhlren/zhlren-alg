@@ -32,7 +32,7 @@ public class DisruptorTest {
         MEventFactory factory = new MEventFactory();
 
         // Construct the Disruptor
-        Disruptor<MEvent> disruptor = new Disruptor<MEvent>(factory, bufferSize, threadFactory, ProducerType.MULTI,
+        Disruptor<MEvent> disruptor = new Disruptor<MEvent>(factory, bufferSize, threadFactory, ProducerType.SINGLE,
                 new YieldingWaitStrategy());
 
         MWorkerHandler[] mWorkerHandlers = new MWorkerHandler[CONSUMER_NUMBER];
