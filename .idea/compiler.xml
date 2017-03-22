@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="zhlren-ltcd" />
         <module name="zhlren-pre" />
+        <module name="zhlren-selector" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="zhlren-alg" target="1.5" />
       <module name="zhlren-ltcd" target="1.5" />
       <module name="zhlren-pre" target="1.5" />
+      <module name="zhlren-selector" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

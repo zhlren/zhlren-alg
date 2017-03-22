@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/zhlren-alg.iml" filepath="$PROJECT_DIR$/zhlren-alg.iml" />
       <module fileurl="file://$PROJECT_DIR$/zhlren-ltcd/zhlren-ltcd.iml" filepath="$PROJECT_DIR$/zhlren-ltcd/zhlren-ltcd.iml" />
       <module fileurl="file://$PROJECT_DIR$/zhlren-pre/zhlren-pre.iml" filepath="$PROJECT_DIR$/zhlren-pre/zhlren-pre.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhlren-selector/zhlren-selector.iml" filepath="$PROJECT_DIR$/zhlren-selector/zhlren-selector.iml" />
     </modules>
   </component>
 </project>
