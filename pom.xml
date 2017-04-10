@@ -19,6 +19,7 @@
         <junit.version>4.10</junit.version>
         <commons-lang.version>2.6</commons-lang.version>
         <disruptor.version>3.3.6</disruptor.version>
+        <netty.version>4.1.0.CR7</netty.version>
 
     </properties>
 
@@ -40,6 +41,12 @@
             <groupId>com.lmax</groupId>
             <artifactId>disruptor</artifactId>
             <version>${disruptor.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>${netty.version}</version>
         </dependency>
 
     </dependencies>

@@ -11,5 +11,18 @@
 
     <artifactId>zhlren-selector</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.0.CR7</version>
+        </dependency>
+    </dependencies>
+
+
 
 </project>
