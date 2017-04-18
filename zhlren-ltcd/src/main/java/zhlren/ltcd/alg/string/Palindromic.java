@@ -17,11 +17,8 @@ public class Palindromic {
         boolean[][] dp = new boolean[len][len];
 
         String longest = null;
-        for (int l=0;l<s.length();l++){
-            for (int i=0;i<len-l;i++){
-                int j = i +1;
-
-            }
+        for (int i=0;i<s.length();i++){
+            for(int j=)
         }
         return null;
     }
